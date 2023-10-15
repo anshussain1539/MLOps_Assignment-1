@@ -32,8 +32,7 @@ jobs:
                   body: \```
                     Hello Hassam,
 
-                    It's me, Jenkins, your trustee butler. I am here to inform you of the successful execution of my job. A new feature was implemented by one of the collaborators of the repo "SyedAddan/CI-CD_Pipeline" and it successfully went through all the hardships of quality testing from flake8 in the dev branch and the unit testing from the test cases written in the test branch and here we are in the main branch after building the docker image and pushing it to docker hub.
-                  
+                    It's me, Jenkins, your trustee butler. I am here to inform you of the successful execution of my job. 
                     
                     ```
                   to: ${{ secrets.EMAIL_TO }}
